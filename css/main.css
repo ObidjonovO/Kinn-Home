@@ -1,0 +1,449 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  
+    margin: 0 auto;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:54px 72px 60px 72px ;
+
+}
+.basic{
+    display: flex;
+    align-items: center;
+ 
+    gap: 150px;
+}
+.header_left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header_left li a,
+select{
+    color: #56593D;
+    font-size: 16px;
+ 
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 25.20px;
+    letter-spacing: 1.58px;
+    cursor: pointer;
+}
+.header_middle {
+}
+.header_right {
+    display: flex;
+    gap: 20px;
+}
+.hero{
+    background: url(../img/background.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 56px 0 56px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    flex-direction: column;
+    padding:462px 64px 64px 64px ;
+    margin-bottom: 110px;
+}
+.hero h4{
+    color: #56593D;
+    font-size: 18px;
+   
+    font-weight: 400;
+    line-height: 21.60px;
+    letter-spacing: 1.80px;
+    margin-bottom: 10px;
+
+}
+.hero h3{
+    color: #56593D;
+    font-size: 45px;
+
+    font-weight: 400;
+    line-height: 60.48px;
+    margin-bottom: 25px;
+
+}
+.hero button{
+   transition: 0.4s;
+}
+.hero button:hover{
+    transform: scale(106%);
+}
+.hero button a {
+    color: #FFFFEF;
+    font-size: 16px;
+  background-color: #56593D;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 22.36px;
+    letter-spacing: 1.58px;
+    padding: 16px 25px;
+    
+}
+.product h3{
+    color: #56593D;
+    font-size: 57px;
+ 
+    font-weight: 400;
+    line-height: 81px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1194px;
+    margin-bottom: 25px;
+    
+}
+.product_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 68px;
+}
+.link{
+    padding-bottom: 90px;
+    transition: 0.4s;    
+}
+.link:hover{
+    transform: scale(105%);
+}
+.link a{
+    color: #56593D;
+    font-size: 16px;
+ 
+    font-weight: 400;
+    line-height: 25.60px;
+    letter-spacing: 1.60px;
+}
+.link a img{
+    padding-top: 8px;
+    padding-left: 4px;
+}
+.collect{
+    background: #FFFFEF;
+    margin: 0 40px 23px 40px;
+    padding: 63px 32px 81px 32px ;
+}
+.collect h5{
+    text-align: center;
+    color: #56593D;
+    font-size: 24px;
+
+    font-weight: 400;
+    line-height: 32.40px;
+    margin-bottom: 80px;
+}
+.card{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 32px;
+}
+.cards{
+    transition: 0.4s;
+    cursor: pointer;
+}
+.cards:hover{
+    transform: scale(103%);
+}
+.cards img{
+    margin-bottom: 15px;
+}
+.cards h6{
+    text-align: center;
+    color: #56593D;
+    font-size: 16px;
+
+    font-weight: 400;
+    line-height: 21.60px;
+}
+.cards p{
+    text-align: center;
+    color: #717353;
+    font-size: 16px;
+  
+    font-weight: 400;
+    line-height: 25.92px;
+    letter-spacing: 1.62px;
+    
+}
+.moments{
+    background-color: #FFFFEF;
+    background-image: url(../img/background2.png);
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    background-position: center center;
+    padding: 40px;
+    margin: 0 40px 24px 40px;
+}
+.moments h6{
+    color: #56593D;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21.60px;
+    letter-spacing: 1.80px;
+    text-align: center;
+    padding-top: 62px;
+}
+.moments h2{
+    color: #56593D;
+    font-size: 50px;
+
+    font-weight: 400;
+    line-height: 60.48px;
+    text-align: center;
+    max-width: 1093px;
+    margin: 0 auto;
+    padding-bottom: 484px;
+}
+
+.design {
+    background-color: #FFFFEF;
+    display: flex;
+    align-items: flex-start;
+    gap: 119px;
+    margin: 0 40px 24px 40px;
+    padding: 64px 0 64px 32px;
+}
+.design_right {
+    padding-top: 63px;
+}
+.design_right h4{
+    color: #56593D;
+    font-size: 29px;
+  
+    font-weight: 400;
+    line-height: 38.88px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.rengtable{
+    text-align: center;
+    margin-bottom: 32px;
+}
+.design_right p{
+    color: #56593D;
+    font-size: 20px;
+    font-family: 'Jost' ,sans-serif;
+    font-weight: 400;
+    line-height: 32.40px;
+    max-width: 347px;
+    text-align: center;
+}
+.table {
+    background-color: #FFFFEF;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 120px;
+    margin: 0 40px 24px 40px;
+    padding: 64px 32px 65px 121px;
+}
+.table_left {
+    padding-top: 63px;
+}
+.table_left h4{
+    color: #56593D;
+    font-size: 29px;
+  
+    font-weight: 400;
+    line-height: 38.88px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.rengtable{
+    text-align: center;
+    margin-bottom: 32px;
+}
+.table_left p{
+    color: #56593D;
+    font-size: 20px;
+    font-family: 'Jost' ,sans-serif;
+    font-weight: 400;
+    line-height: 32.40px;
+    max-width: 347px;
+    text-align: center;
+}
+.path {
+    background-color: #FFFFEF;
+    margin: 0 48px 40px 48px;
+    padding: 63px 0 63px 0;
+
+}
+
+
+.path h3{
+    color: #56593D;
+    font-size: 28px;
+  
+    font-weight: 400;
+    line-height: 38.88px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.path p {
+    color: #56593D;
+    font-size: 17px;
+    
+    font-weight: 400;
+    line-height: 28.80px;
+    text-align: center;
+    margin-bottom: 31.2px;
+}
+
+.path form input{
+    color: #56593D;
+    background-color: #FFFFEF;
+     border-bottom: 1px  #56593D solid;
+     padding: 3px 0 3px 0;
+     width: 260px;
+}
+
+.path form {
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    gap: 16.41px;
+
+   
+    
+}
+
+.surbscribe button{
+    background-color:#56593D;
+    color: #FFFFEF;
+    font-size: 15px;
+   
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 22.72px;
+    letter-spacing: 1.60px;
+    transition: 0.4s;
+    padding: 0.5px 25px;
+}
+.surbscribe button:hover{
+    scale: 103%;
+}
+.kinnpictures{
+    background-color: #FFFFEF;
+    margin: 0 40px 128px 40px;
+    padding: 64px 24px 64px 24px;
+}
+.kinnpictures h4{
+    color: #56593D;
+    font-size: 25px;
+   
+    font-weight: 400;
+    line-height: 32.40px;
+    text-align: center;
+    margin-bottom: 39px;
+}
+.image{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.img {
+    width: 320px;
+    height: 320px;
+}
+.img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.4s ;
+    cursor: pointer;
+}
+.img img:hover{
+    transform: scale(102%);
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background: #717353;
+    margin: 0 8px 8px 8px;
+    padding: 62px 32px 106px 32px;
+}
+.footer_card {
+    display: flex;
+    align-items: flex-start;
+    gap: 140px;
+}
+.footer_cards {
+    
+}
+.kinnhome {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.number {   
+    color: #FFFFEF;
+    font-size: 16px;
+   
+    font-weight: 400;
+    line-height: 25.20px;
+}
+.kinnhometext {
+    color: #FFFFEF;
+    font-size: 15px;
+    
+    font-weight: 400;
+    line-height: 25.20px;
+}
+.more_text{
+    color: #FFFFEF;
+    font-size: 16px;
+ 
+    font-weight: 400;
+    line-height: 25.20px;
+    max-width: 353px;
+}
+.footer_cards h6{
+    color: #FFFFEF;
+    font-size: 15px;
+    
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 18.90px;
+    letter-spacing: 1.58px;
+    margin-bottom: 17px;
+}
+.footer_cards p{
+    color: #FFFFEF;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 25.20px;
+    letter-spacing: 1.58px;
+}
+.group_li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.group_li img{
+    padding-top: 2px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.rengtable2{
+    margin-bottom: 7px;
+}
